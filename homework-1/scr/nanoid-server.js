@@ -10,5 +10,6 @@ const http      = require('http'),
                     res.setHeader('Content-Type', 'text/plain');
                     res.end(nanoid());
                     
-                  });     
+                  });
+      
 server.listen(port, hostname, () => console.log(`Server is running at http://${hostname}:${port}/`));
