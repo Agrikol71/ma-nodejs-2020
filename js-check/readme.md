@@ -1,1 +1,0 @@
-My js entrance test
